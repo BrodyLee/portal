@@ -1,0 +1,122 @@
+/* ------------------------------------- colors --------------------------- */
+.txt.primary-color {
+  color: #00bcd4; }
+
+.bg.primary-background {
+  background: #00bcd4; }
+
+.bg.secondary-background {
+  background-color: #000; }
+
+.bg.primary-background-hover:hover {
+  background-color: #008fa1; }
+
+.txt.white-color {
+  color: #000; }
+
+/* ------------------------------------- common classes -------------------- */
+.alert-info {
+  font-size: 24px; }
+
+.alert span {
+  max-width: 100%;
+  line-height: 32px; }
+
+star {
+  color: #ff0000; }
+
+.datepicker td.day.active div, .datepicker td.day.active:hover div {
+  background-color: #00bcd4; }
+
+/* ---------------------- login page ----------------- */
+.form-group.is-focused .form-control {
+  background-image: linear-gradient(#26c6da, #00acc1), linear-gradient(#D2D2D2, #D2D2D2); }
+
+.forgot-pass {
+  margin: 10px 0; }
+
+.link-to-page {
+  display: inline-block; }
+
+/*layout*/
+.main-panel {
+  height: 100%; }
+
+.sidebar .user {
+  padding-bottom: 5px; }
+
+.sidebar li.active a {
+  background: #00bcd4; }
+
+.sidebar .sidebar-background:after {
+  background: #000; }
+
+.sidebar .user-icon-list {
+  padding-top: 20px;
+  text-align: center; }
+  .sidebar .user-icon-list ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    display: inline-block;
+    margin: 0; }
+  .sidebar .user-icon-list li {
+    float: left;
+    padding: 6px 15px; }
+    .sidebar .user-icon-list li a {
+      padding: 0; }
+      .sidebar .user-icon-list li a:hover {
+        color: #fff; }
+
+.sidebar-mini .user-icon-list ul {
+  display: flex;
+  flex-direction: column; }
+
+.sidebar .nav i, .sidebar .nav li > a, .sidebar .nav li:hover > a, .sidebar .user .info > a, .navbar > .container-fluid .navbar-brand, .navbar .navbar-form .form-group .form-control, .navbar .navbar-form .form-control {
+  color: #fff; }
+
+.btn.btn-white, .btn.btn-white:focus, .btn.btn-white:hover, .navbar .navbar-nav > li > a.btn.btn-white, .navbar .navbar-nav > li > a.btn.btn-white:focus, .navbar .navbar-nav > li > a.btn.btn-white:hover, .navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:focus, .navbar .dropdown-menu li a:active, .navbar.navbar-default .dropdown-menu li a:hover, .navbar.navbar-default .dropdown-menu li a:focus, .navbar.navbar-default .dropdown-menu li a:active, .bootstrap-table .dropdown-menu li a:hover, .bootstrap-table .dropdown-menu li a:focus, .bootstrap-table .dropdown-menu li a:active, .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+  background: #00bcd4; }
+
+.btn .material-icons {
+  color: #fff; }
+
+.caret {
+  margin-left: 6px; }
+
+.header-dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .header-dropdown-menu > li {
+    float: left; }
+
+.nav.nav-mobile-menu {
+  display: none; }
+
+/* ---------------------- line page ----------------- */
+.panel .panel-heading a:hover, .panel .panel-heading a:active, .panel .panel-heading a[aria-expanded="true"] {
+  color: #00bcd4; }
+
+.card .form-horizontal .label-on-left {
+  padding: 17px 5px 0 0; }
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:active {
+  background-color: #00bcd4; }
+
+.form-horizontal .btn-group {
+  margin-top: 0; }
+
+.form-horizontal .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  text-transform: initial;
+  color: #555555;
+  font-size: 14px; }
+
+.form-horizontal .dropdown-menu li > a {
+  font-size: 14px; }
+
+.btn.dropdown-toggle {
+  height: 40px; }
+
+.card .form-horizontal .label-on-left.label-pad {
+  padding-top: 22px; }

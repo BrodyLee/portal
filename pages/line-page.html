@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <!--<link rel="icon" type="image/png" href="../dist/img/favicon.png"/>-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Line</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta name="viewport" content="width=device-width"/>
+    <!-- Bootstrap core CSS     -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--  Material Dashboard CSS    -->
+    <link href="../dist/css/material-dashboard.css?v=1.2.0" rel="stylesheet"/>
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../dist/css/app.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar bg secondary-background">
+        <div class="sidebar-wrapper ps-container ps-theme-default ps-active-y"
+             data-ps-id="60b876ac-2283-048f-c2e8-35c910f7be60">
+            <div class="user">
+                <div class="photo">
+                    <img src="../dist/images/default-avatar.png">
+                </div>
+                <div class="info">
+                    <a href="#">
+                            <span>
+                                User Name
+                            </span>
+                    </a>
+                    <div class="clearfix"></div>
+                    <div class="user-icon-list">
+                        <ul>
+                            <li><a href="#"><i class="material-icons">person</i></a></li>
+                            <li><a href="#"><i class="material-icons">email</i></a></li>
+                            <li><a href="#"><i class="material-icons">settings</i></a></li>
+                            <li><a href="#"><i class="material-icons">input</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="./dashboard.html">
+                        <i class="material-icons">dashboard</i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="charts.html">
+                        <i class="material-icons">timeline</i>
+                        <p>Lines</p>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="collapse" href="#pagesExamples">
+                        <i class="material-icons"><i class="material-icons">dvr</i></i>
+                        <p>Support Requests</p>
+                    </a>
+                </li>
+
+            </ul>
+            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+            </div>
+            <div class="ps-scrollbar-y-rail" style="top: 0px; height: 562px; right: 0px;">
+                <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 486px;"></div>
+            </div>
+        </div>
+        <div class="sidebar-background"></div>
+    </div>
+    <div class="main-panel ps-container ps-theme-default" data-ps-id="dab7c972-cc5c-1ac7-088b-9a09f73076a2">
+        <nav class="navbar navbar-fixed-top  navbar-absolute bg secondary-background">
+            <div class="container-fluid">
+                <!--<div class="navbar-minimize">-->
+                <!--<button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">-->
+                <!--<i class="material-icons visible-on-sidebar-regular">more_vert</i>-->
+                <!--<i class="material-icons visible-on-sidebar-mini">view_list</i>-->
+                <!--</button>-->
+                <!--</div>-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="header-dropdown-menu">
+                        <li><a class="navbar-brand" href="#"> Groups
+                            <div class="ripple-container"></div>
+                        </a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown">Most Active Lines<b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group form-search is-empty">
+                            <input type="text" class="form-control txt white-color" placeholder="Search">
+                            <span class="material-input"></span>
+                            <span class="material-input"></span></div>
+                        <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                            <i class="material-icons">search</i>
+                            <div class="ripple-container"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-info text-center">
+                            <span>Line #15699 - 9188768768 8901260903794076720F</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="panel-group" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <h4 class="panel-title">
+                                                    About contact
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-6">
+                                                        <form class="form-horizontal">
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left"><star>*</star> Phone number:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control" placeholder="9188768768">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left"><star>*</star> SIM:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control" placeholder="8901260903794076720F">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">Reseller:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control" placeholder="Global Travel Telecom">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-md-5"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                                <h4 class="panel-title">
+                                                    More
+                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-6">
+                                                        <form class="form-horizontal">
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left label-pad">Contact Type:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <select class="selectpicker" data-style="select-with-transition" title="Choose contact type" data-size="10">
+                                                                            <option value="0"> Clients</option>
+                                                                            <option value="1"> Customers</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">Responsible:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control" placeholder="Jovy Vidal">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left label-pad">Source:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <select class="selectpicker " data-style="select-with-transition " title="Choose source" data-size="10">
+                                                                            <option value="0"> Other</option>
+                                                                            <option value="1"> Customers</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">Description:</label>
+                                                                <div class="col-md-9">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <textarea class="form-control" rows="3"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">Created:</label>
+                                                                <div class="col-md-6">
+                                                                    <input type="text" class="form-control datepicker" value="10/10/2016" />
+                                                                </div>
+                                                                <div class="col-md-3"></div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">Chargeback Ticker:</label>
+                                                                <div class="col-md-3">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control" placeholder="0">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6"></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <label class="col-md-3 label-on-left">SIM:</label>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="control-label"></label>
+                                                                        <input type="text" class="form-control">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3"></div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="col-md-5"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--   Core JS Files   -->
+<script src="../dist/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="../dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../dist/js/material.min.js" type="text/javascript"></script>
+<script src="../dist/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+<script src="../dist/js/material-dashboard.js?v=1.2.0"></script>
+<script src="../dist/js/moment.min.js"></script>
+<script src="../dist/js/jquery.select-bootstrap.js"></script>
+<script src="../dist/js/bootstrap-datetimepicker.js"></script>
+<script src="../dist/js/jquery.tagsinput.js"></script>
+
+<script src="../dist/js/main.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+//    md.initSliders()
+    main.initFormExtendedDatetimepickers();
+  });
+</script>
+</body>
+</html>
