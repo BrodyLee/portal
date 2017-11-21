@@ -28,6 +28,12 @@ star {
 .datepicker td.day.active div, .datepicker td.day.active:hover div {
   background-color: #00bcd4; }
 
+.flex {
+  display: flex; }
+
+.align-center {
+  align-items: center; }
+
 /* ---------------------- login page ----------------- */
 .form-group.is-focused .form-control {
   background-image: linear-gradient(#26c6da, #00acc1), linear-gradient(#D2D2D2, #D2D2D2); }
@@ -98,8 +104,8 @@ star {
 .panel .panel-heading a:hover, .panel .panel-heading a:active, .panel .panel-heading a[aria-expanded="true"] {
   color: #00bcd4; }
 
-.card .form-horizontal .label-on-left {
-  padding: 17px 5px 0 0; }
+.card .form-horizontal .label-on-left, .card .form-horizontal .label-on-right {
+  padding: 18px 5px 0 0; }
 
 .dropdown-menu li a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:active {
   background-color: #00bcd4; }
@@ -120,3 +126,25 @@ star {
 
 .card .form-horizontal .label-on-left.label-pad {
   padding-top: 22px; }
+
+/* ---------------------- account details ----------------- */
+.account-details .img-circle {
+  width: 100px; }
+
+.account-details .file-label img {
+  cursor: pointer; }
+
+.account-details .file-label input {
+  display: none; }
+
+.account-details a {
+  color: #00bcd4; }
+
+.account-details .button-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px; }
+  .account-details .button-container .btn-info:last-of-type {
+    width: 105px;
+    margin-left: 15px; }

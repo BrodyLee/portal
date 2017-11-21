@@ -47,7 +47,12 @@ star{
     }
   }
 }
-
+.flex{
+  display: flex;
+}
+.align-center{
+  align-items: center;
+}
 /* ---------------------- login page ----------------- */
 .form-group.is-focused {
   .form-control {
@@ -153,8 +158,8 @@ star{
 .panel .panel-heading a:hover, .panel .panel-heading a:active, .panel .panel-heading a[aria-expanded="true"]{
   color: $primary-color;
 }
-.card .form-horizontal .label-on-left {
-  padding: 17px 5px 0 0;
+.card .form-horizontal .label-on-left, .card .form-horizontal .label-on-right {
+  padding: 18px 5px 0 0;
 }
 //.btn-group.bootstrap-select.show-tick.open .select-with-transition{
 //  background-image: $primary-color !important;
@@ -181,4 +186,33 @@ star{
 }
 .card .form-horizontal .label-on-left.label-pad  {
   padding-top: 22px;
+}
+
+/* ---------------------- account details ----------------- */
+
+.account-details{
+  .img-circle{
+    width: 100px;
+  }
+  .file-label{
+    img{
+      cursor: pointer;
+    }
+    input{
+      display: none;
+    }
+  }
+  a{
+    color: $primary-color;
+  }
+  .button-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    .btn-info:last-of-type{
+      width: 105px;
+      margin-left: 15px;
+    }
+  }
 }
