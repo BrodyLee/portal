@@ -295,3 +295,37 @@ table.dataTable > thead > tr > th, table.dataTable > tbody > tr > th, table.data
     height: 8px; }
   .top-line .data-storage {
     width: 45px; }
+
+/* -------------------- charts -------------------- */
+.charts-container {
+  padding-bottom: 45px;
+  display: flex; }
+  .charts-container .chart-container {
+    width: 100%;
+    position: relative; }
+    .charts-container .chart-container h4 {
+      text-align: center;
+      padding-right: 150px;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    .charts-container .chart-container .chart-caption {
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      text-align: center; }
+      .charts-container .chart-container .chart-caption p {
+        color: #3C4858;
+        margin: 0; }
+      .charts-container .chart-container .chart-caption p:first-child {
+        text-transform: uppercase; }
+        .charts-container .chart-container .chart-caption p:first-child i {
+          margin-right: 3px;
+          vertical-align: middle;
+          margin-bottom: 7px; }
+        .charts-container .chart-container .chart-caption p:first-child span {
+          font-size: 22px; }
+  .charts-container #chart1, .charts-container #chart2 {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative; }

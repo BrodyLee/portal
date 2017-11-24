@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../dist/css/chartist.css">
     <link rel="stylesheet" href="../dist/css/app.css">
 </head>
 
@@ -391,11 +390,31 @@
                                                 <small> - Total</small>
                                             </h4>
                                         </div>
-                                        <div class="col-md-6">
-                                       чарт1
-                                        </div>
-                                        <div class="col-md-6">
-                                         чарт2
+                                        <div class="charts-container">
+                                            <div class="chart-container">
+                                                <h4 class="chart-header">At&t</h4>
+                                                <div id="chart1">
+                                                    <div class="chart-caption">
+                                                        <p>
+                                                            <i class="material-icons">language</i>
+                                                            <span>371</span>gb / <span>500</span>gb
+                                                        </p>
+                                                        <p>for 30 days</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="chart-container">
+                                                <h4 class="chart-header">T-Mobile</h4>
+                                                <div id="chart2">
+                                                    <div class="chart-caption">
+                                                        <p>
+                                                            <i class="material-icons">language</i>
+                                                            <span>400</span>gb / <span>500</span>gb
+                                                        </p>
+                                                        <p>for 30 days</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -426,8 +445,8 @@
 <script src="../dist/js/bootstrap-datetimepicker.js"></script>
 <script src="../dist/js/bootstrap-notify.js"></script>
 <script src="../dist/js/jquery.tagsinput.js"></script>
-<script src="../dist/js/chartist.min.js"></script>
 <script src="../dist/js/fullcalendar.min.js"></script>
+<script src="../dist/js/progressbar.js"></script>
 <script src="../dist/js/jasny-bootstrap.min.js"></script>
 <script src="../dist/js/jquery.bootstrap-wizard.js"></script>
 <script src="../dist/js/jquery.datatables.js"></script>
@@ -435,5 +454,35 @@
 <script src="../dist/js/jquery.validate.min.js"></script>
 <script src="../dist/js/jquery-jvectormap.js"></script>
 <script src="../dist/js/main.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var bar = new ProgressBar.Circle(chart1, {
+            strokeWidth: 10,
+            easing: 'easeInOut',
+            color: '#00bcd4',
+            trailColor: 'rgba(0, 188, 212, 0.2)',
+            trailWidth: 10,
+            svgStyle: null
+        });
+
+        bar.animate(0.65);  // Number from 0.0 to 1.0
+
+        var bar2 = new ProgressBar.Circle(chart2, {
+            strokeWidth: 10,
+            easing: 'easeInOut',
+            color: '#00bcd4',
+            trailColor: 'rgba(0, 188, 212, 0.2)',
+            trailWidth: 10,
+            svgStyle: null
+        });
+
+        bar2.animate(0.35);  // Number from 0.0 to 1.0
+    });
+</script>
 </body>
 </html>

@@ -424,3 +424,49 @@ table.dataTable>thead>tr>th, table.dataTable>tbody>tr>th, table.dataTable>tfoot>
     width: 45px;
   }
 }
+
+/* -------------------- charts -------------------- */
+.charts-container{
+  padding-bottom: 45px;
+  display: flex;
+
+  .chart-container{
+    width: 100%;
+    position: relative;
+    h4{
+      text-align: center;
+      padding-right: 150px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .chart-caption{
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      text-align: center;
+      p{
+        color: #3C4858;
+        margin: 0;
+      }
+      p:first-child{
+        text-transform: uppercase;
+        i{
+          margin-right: 3px;
+          vertical-align: middle;
+          margin-bottom: 7px;
+        }
+        span{
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  #chart1, #chart2{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
